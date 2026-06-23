@@ -264,12 +264,13 @@ nav a:hover { color: var(--pink); }
   font-size: 3.5rem;
 }
 
-.thumb-purple { background: linear-gradient(135deg, #ce93d8, #9575cd); }
-.thumb-orange { background: linear-gradient(135deg, #ffb74d, #ff8a65); }
-.thumb-teal   { background: linear-gradient(135deg, #4db6ac, #26c6da); }
-.thumb-yellow { background: linear-gradient(135deg, #ffd93d, #ffb300); }
-.thumb-green  { background: linear-gradient(135deg, #69f0ae, #00c853); }
-.thumb-pink   { background: linear-gradient(135deg, #ff6b9d, #f06292); }
+.thumb-purple   { background: linear-gradient(135deg, #ce93d8, #9575cd); }
+.thumb-orange   { background: linear-gradient(135deg, #ffb74d, #ff8a65); }
+.thumb-teal     { background: linear-gradient(135deg, #4db6ac, #26c6da); }
+.thumb-yellow   { background: linear-gradient(135deg, #ffd93d, #ffb300); }
+.thumb-green    { background: linear-gradient(135deg, #69f0ae, #00c853); }
+.thumb-pink     { background: linear-gradient(135deg, #ff6b9d, #f06292); }
+.thumb-portrait { background: linear-gradient(135deg, #667eea, #764ba2, #f093fb); }
 
 .work-body { padding: 20px; }
 
@@ -293,6 +294,7 @@ nav a:hover { color: var(--pink); }
 .tag-global{ background: #4db6ac; }
 .tag-write { background: #ce93d8; }
 .tag-esg   { background: #69f0ae; color: #333; }
+.tag-art   { background: #764ba2; }
 
 .work-body h3 { font-size: 1.1rem; font-weight: 800; margin-bottom: 8px; }
 .work-body p  { font-size: 0.88rem; color: var(--sub); line-height: 1.6; margin-bottom: 16px; }
@@ -336,9 +338,11 @@ nav a:hover { color: var(--pink); }
 }
 
 .contact-btn:hover { transform: translateY(-2px); opacity: 0.85; }
-.btn-gh    { background: #333; }
-.btn-ig    { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
-.btn-curry { background: linear-gradient(45deg, #ff8a65, #ffb74d); }
+.btn-gh       { background: #333; }
+.btn-ig       { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+.btn-curry    { background: linear-gradient(45deg, #ff8a65, #ffb74d); }
+.btn-portrait { background: linear-gradient(45deg, #667eea, #764ba2); }
+.btn-note     { background: #41c9b4; }
 
 /* ===== フッター ===== */
 footer {
