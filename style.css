@@ -15,7 +15,9 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
-  background: var(--cream);
+  background-color: var(--cream);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cellipse cx='40' cy='15' rx='8' ry='13' fill='%23D4A017' opacity='0.1'/%3E%3Cellipse cx='40' cy='65' rx='8' ry='13' fill='%23D4A017' opacity='0.1'/%3E%3Cellipse cx='15' cy='40' rx='13' ry='8' fill='%23D4A017' opacity='0.1'/%3E%3Cellipse cx='65' cy='40' rx='13' ry='8' fill='%23D4A017' opacity='0.1'/%3E%3Ccircle cx='40' cy='40' r='9' fill='%232A1A0A' opacity='0.06'/%3E%3Ccircle cx='40' cy='40' r='5' fill='%23D4A017' opacity='0.1'/%3E%3C/svg%3E");
+  background-size: 80px 80px;
   color: var(--charcoal);
   overflow-x: hidden;
   line-height: 1.7;
@@ -149,7 +151,7 @@ nav a:hover { color: var(--orange); }
 .btn-primary { background: var(--charcoal); color: var(--cream); }
 .btn-outline  { border: 2.5px solid var(--charcoal); color: var(--charcoal); }
 
-/* Hero Art — Marimekko風 大きな円 */
+/* Hero Art — Unikko × Block Print flower */
 .hero-art {
   position: relative;
   width: 340px;
@@ -157,14 +159,11 @@ nav a:hover { color: var(--orange); }
   flex-shrink: 0;
 }
 
-.shape { position: absolute; border-radius: 50%; }
-
-.s1 { width: 280px; height: 280px; background: var(--mustard); top: 0; left: 0; }
-.s2 { width: 180px; height: 180px; background: var(--orange); bottom: 20px; right: 0; }
-.s3 { width: 100px; height: 100px; background: var(--white); top: 90px; left: 90px; }
-.s4 { width: 60px;  height: 60px;  background: var(--charcoal); top: 120px; left: 120px; }
-.s5 { width: 48px;  height: 48px;  border: 3px solid var(--charcoal); background: transparent; bottom: 60px; right: 50px; }
-.s6 { width: 24px;  height: 24px;  background: var(--mustard); bottom: 30px; left: 20px; }
+.flower-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 
 /* ===== Section ===== */
 .section {
@@ -412,10 +411,6 @@ footer {
 @media (max-width: 640px) {
   .hero { grid-template-columns: 1fr; gap: 40px; padding: 60px 20px; }
   .hero-art { width: 240px; height: 260px; margin: 0 auto; }
-  .s1 { width: 200px; height: 200px; }
-  .s2 { width: 130px; height: 130px; }
-  .s3 { width: 70px; height: 70px; top: 65px; left: 65px; }
-  .s4 { width: 40px; height: 40px; top: 80px; left: 80px; }
   .about-intro { margin-left: 0; }
   .works-grid { grid-template-columns: 1fr; }
   .work-card:nth-child(n) { grid-column: span 1 !important; }
